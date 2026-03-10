@@ -37,6 +37,7 @@ header{
 .about{
     height: 800px;
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 100%, rgba(252, 139, 59, 1) 70%, rgba(252, 176, 69, 1) 100%);
+    color: black;
 }
 
 .containerAbout{
@@ -59,12 +60,42 @@ header{
     box-shadow: 3px 3px 5px -2px black;
 }
 html{
-    color: darkgrey;
+    color: black;
 }
 .deschome a:hover{
     box-shadow: 5px 5px 10px -2px rgba (0, 0, 0, 0.747);
     padding: 11px 31px
     
 }
+.cardProfile{
+    background-color: gray;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.imgProfile img{
+     width : 100%;
+}
+
+img{
+    width: 15%;
+    height: auto;
+}
 
 
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
