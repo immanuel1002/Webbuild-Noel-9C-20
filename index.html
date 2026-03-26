@@ -1,81 +1,98 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Menu Icon</title>
-                     
-                <link rel="stylesheet" href="styles.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimchi Cucumber Co. - Bioteknologi Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
 
-        <header>
-            <div class="banner">
-                <a href="#home">
-                    <img src="logo.png">
-                </a>
+    <header>
+        <div class="banner">
+            <a href="#home">
+                <img src="logo.png" alt="Logo Kimchi Cucumber Co.">
+            </a>
+        </div>
+        <nav>
+            <a href="#home"> <i class="fa fa-home"></i> home</a>
+            <a href="#product"> <i class="fa fa-cutlery"></i> product</a>
+            <a href="#about"> <i class="fa fa-buysellads"></i> about</a>
+            <a href="#contact"> <i class="fa fa-telegram"></i> contact us</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="deschome">
+            <h1>Kimchi Timun</h1>
+            <p>
+                Selamat datang di portal bioteknologi pangan saya. Proyek ini mengeksplorasi pembuatan 
+                kimchi timun melalui proses fermentasi alami untuk menciptakan pangan fungsional yang sehat.
+            </p>
+            <a href="#about">Learn More</a>
+        </div>
+    </section>
+
+    <section class="product" id="product">
+        <h2 class="title-section">Product Detail & Biotechnology</h2>
+        <div class="containerProduct">
+            <div class="cardProduct">
+                <img src="logo.png" alt="Produk Kimchi">
+                <h3>Original Kimchi Timun</h3>
+                <p>Paduan segar timun pilihan dengan bumbu rempah autentik hasil riset bioteknologi konvensional.</p>
             </div>
-            <nav>
-                <a href="#home"> <i class="fa fa-home"></i>home</a>
-                <a href="#product"> <i class="fa fa-cutlery"></i>product</a>
-                <a href="#about"> <i class="fa fa-buysellads"></i>bout</a>
-                <a href="#contact us"> <i class="fa fa-telegram"></i>contact us</a>
-            </nav>
-        </header>
-        <section class="home" id="home">
 
-            <div class="deschome">
-                <h1>
-                Kimchi Timun
-                </h1>
-                <p>
-                Selamat datang di web bioteknologi saya. Website ini berisi
-                informasi mengenai proyek pembuatan kimchi timun yang
-                dilakukan melalui proses fermentasi. Melalui website ini
-                saya membagikan pengalaman penelitian, proses pembuatan,
-                serta manfaat dari produk bioteknologi yang telah dibuat.
-                </p>
-                <a href="#about">Learn More</a>
+            <div class="specs">
+                <div class="detail-item">
+                    <h3><i class="fa fa-flask"></i> Proses Bioteknologi</h3>
+                    <p>Menggunakan teknik <strong>Fermentasi Asam Laktat</strong> anaerob. Bakteri <em>Lactobacillus bulgaricus</em> mengubah glukosa menjadi asam laktat, menciptakan rasa asam alami dan mengawetkan produk.</p>
+                </div>
+
+                <div class="detail-item">
+                    <h3><i class="fa fa-leaf"></i> Bahan Baku Utama</h3>
+                    <p>Timun segar, bawang putih, jahe, bubuk cabai, dan garam laut yang berfungsi sebagai agen <strong>Osmosis</strong> untuk menjaga tekstur tetap renyah.</p>
+                </div>
+
+                <div class="detail-item">
+                    <h3><i class="fa fa-shield"></i> Manfaat Kesehatan</h3>
+                    <p>Kaya akan <strong>Probiotik</strong> aktif untuk pencernaan, serta mengandung antioksidan dan vitamin hasil sintesis mikrobia selama masa fermentasi.</p>
+                </div>
             </div>
+        </div>
+    </section>
 
-</section>
+    <section class="about" id="about">
+        <div class="containerAbout">
+            <h3>About My Project</h3>
+            <p>
+                Penelitian ini bertujuan untuk menganalisis pengaruh lama fermentasi terhadap karakteristik fisik 
+                dan kimia kimchi timun. Melalui penerapan bioteknologi konvensional, produk ini tidak hanya 
+                meningkatkan nilai gizi tetapi juga memperpanjang masa simpan bahan pangan secara alami.
+            </p>
+        </div>
+    </section>
 
-<section class="about" id="about">
-    <div class="containerAbout"
-    <img src="bg.png">
-    <h3>About My Project</h3>
-    <p>
-        Kimchi timun merupakan produk bioteknologi pangan yang
-        dibuat melalui proses fermentasi menggunakan bakteri asam
-        laktat. Penelitian ini bertujuan untuk mengetahui pengaruh
-        lama fermentasi terhadap karakteristik kimchi timun yang
-        dihasilkan. Fermentasi dilakukan selama beberapa hari untuk
-        menghasilkan rasa asam khas serta meningkatkan kualitas
-        produk. Proses ini juga dapat meningkatkan daya simpan dan
-        memberikan manfaat bagi kesehatan karena mengandung
-        mikroorganisme baik.
-    </p>
-    </div>
-</section>
+    <section class="contact" id="contact">
+        <div class="cardProfile">
+            <div class="imgProfile">
+                <img src="profile.png" alt="Foto Profil">
+            </div>
+            <h3>Immanuel Kendrick Wiguna</h3>
+            <p>IX C / 20</p>
+        </div>
 
-<section class="contact us" id="contact us">
-    <div class="cardProfile">
-        <img src="profile.png">
-        <h3>Immanuel Kendrick Wiguna</h3>
-        <p>
-            IX C/20
-        </p>
+        <div class="medsos">
+            <a href="https://facebook.com/Immanuel K" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://wa.me/62895374098100" target="_blank" class="fa fa-whatsapp"></a>
+            <a href="https://instagram.com/immanuel_k.w" target="_blank" class="fa fa-instagram"></a>
+            <a href="mailto:immanuelkw10@gmail.com" class="fa fa-envelope"></a>
+        </div>
+    </section>
 
-    </div>
-<div class="medsos"
-<a href="#"><span class="fa fa-facebook"></span></a>
-<a href="#"><span class="fa fa-whatsapp"></span></a>
-<a href="#"><span class="fa fa-instagram"></span></a>
-<a href="#"><span class="fa fa-google"></span></a>
-</div>
-</div>
-</section>
-    </body>
+    <footer>
+        <p>&copy; 2026 Kimchi Cucumber Co. | Bioteknologi Project</p>
+    </footer>
+
+</body>
 </html>
